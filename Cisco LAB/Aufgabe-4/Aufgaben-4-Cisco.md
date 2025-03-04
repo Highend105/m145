@@ -1,5 +1,24 @@
 # Cisco Aufgabe 4
 
+| Parameter               | Wert              |
+|-------------------------|------------------|
+| Destination MAC Address | 000C:85CC:1DA7   |
+| Source MAC Address      | 00D0:D311:C788   |
+| Source IP Address       | 172.16.31.5      |
+| Destination IP Address  | 172.16.31.2      |
+| At Device              | 172.16.31.5      |
+
+
+| Gerät       | Quell-IP       | Ziel-IP         | Quell-MAC           | Ziel-MAC           |
+|------------|--------------|--------------|------------------|------------------|
+| Switch1    | 172.16.31.5  | 172.16.31.2  | 00D0.D311.C788   | 000C.85CC.1DA7   |
+| Hub        | 172.16.31.5  | 172.16.31.2  | 00D0.D311.C788   | 000C.85CC.1DA7   |
+| 172.16.31.2 | 172.16.31.5 | 172.16.31.2  | 00D0.D311.C788   | 000C.85CC.1DA7   |
+| 172.16.31.3 | 172.16.31.5 | 172.16.31.2  | 00D0.D311.C788   | 000C.85CC.1DA7   |
+
+
+
+
 Questions:
 
 Were there different types of cables/media used to connect devices?
